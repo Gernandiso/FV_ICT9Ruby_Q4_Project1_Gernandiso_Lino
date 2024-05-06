@@ -14,13 +14,13 @@ var colors = ['#1abc9c', '#2ecc71', '#3498db', '#8c52ff', '#9b59b6'];
 var Ball = {
     new: function (incrementedSpeed) {
         return {
-            width: 18,
-            height: 18,
+            width: 36,
+            height: 36,
             x: (this.canvas.width / 2) - 9,
             y: (this.canvas.height / 2) - 9,
             moveX: DIRECTION.IDLE,
             moveY: DIRECTION.IDLE,
-            speed: incrementedSpeed || 7 
+            speed: incrementedSpeed || 10
         };
     }
 };
@@ -29,13 +29,13 @@ var Ball = {
 var Ai = {
     new: function (side) {
         return {
-            width: 18,
+            width: 36,
             height: 180,
             x: side === 'left' ? 150 : this.canvas.width - 150,
             y: (this.canvas.height / 2) - 35,
             score: 0,
             move: DIRECTION.IDLE,
-            speed: 8
+            speed: 10
         };
     }
 };
