@@ -22,7 +22,7 @@
 <body>
     <h1>Pong Pong</h1>
     <canvas></canvas>
-    <p>Control the left player by using up and down arrow keys DISCLAIMER: used a youtube video for guidance I did not make this on my own.</p>
+    <p>Control the left player by using up and down arrow keys DISCLAIMER: Yotube video used for guidance on how to make it.</p>
     <script src="./script.js"></script>
 </body>
 </html>
