@@ -20,7 +20,7 @@ var Ball = {
             y: (this.canvas.height / 2) - 9,
             moveX: DIRECTION.IDLE,
             moveY: DIRECTION.IDLE,
-            speed: incrementedSpeed || 10
+            speed: incrementedSpeed || 6
         };
     }
 };
@@ -35,7 +35,7 @@ var Ai = {
             y: (this.canvas.height / 2) - 35,
             score: 0,
             move: DIRECTION.IDLE,
-            speed: 10
+            speed: 5
         };
     }
 };
